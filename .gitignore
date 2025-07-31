@@ -1,1 +1,46 @@
+# Maven target directory
 /ThymeleafLayoutDemo/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Spring Boot specific
+.springBeans
+
+# Application properties (nếu có chứa mật khẩu)
+application-*.yml
+application-*.properties
+
+# Node modules (nếu có dùng frontend)
+node_modules/
+dist/
+
+# Coverage / Test
+*.coverage
+*.coveragexml
+/test-output/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
